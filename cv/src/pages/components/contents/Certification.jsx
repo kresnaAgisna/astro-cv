@@ -11,10 +11,6 @@ const Certification = () => {
       setDrag(true)
     }
 
-    const toggleInactive = () => {
-      setDrag(false)
-    }
-
     const moveImage = (e) => {
       if(drag) {
         const distance = (parseFloat(pos) - e.clientX) / 50
@@ -41,7 +37,7 @@ const Certification = () => {
     }, [])
 
     return (
-      <div className="z-10 w-full">
+      <div className="z-10 w-full mt-10">
         <h3 className="text-2xl font-bold text-purple-900 mb-[0.5cm]">CERTIFICATIONS</h3>
         <div className="h-[5cm] w-full p-2 ring-purple-900 ring-1 overflow-clip cursor-pointer" onMouseDown={setClientX} onMouseMove={moveImage}>
             <div className="flex space-x-2 w-full h-full" ref={carousel} draggable="false">

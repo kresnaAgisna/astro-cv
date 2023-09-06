@@ -6,7 +6,7 @@ const Summary = () => {
         <div className="flex space-x-1">
             <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-mail"
+            className="icon icon-tabler icon-tabler-mail"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -24,7 +24,7 @@ const Summary = () => {
         <div className="flex space-x-1">
             <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-phone"
+            className="icon icon-tabler icon-tabler-phone"
             width="24"
             height="24"
             viewBox="0 0 24 24"
