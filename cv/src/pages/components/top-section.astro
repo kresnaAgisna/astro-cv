@@ -1,0 +1,16 @@
+---
+import ProfilePicture from "./profile-pic.astro"
+import Spiral from "./ornaments/Spiral";
+import BulletGroup from "./ornaments/BulletGroup"
+---
+
+<div class="flex justify-between px-[2cm] h-[7cm] w-full bg-purple-900 rounded-b-[50%] box-border relative">
+    <Spiral/>
+    <BulletGroup position={'left-[0cm] top-[1cm]'}/>
+    <ProfilePicture/>
+    <div class="flex flex-col justify-center w-[7cm]">
+        <h3 class="text-3xl font-bold text-white">KRESNAZA</h3>
+        <h3 class="text-3xl font-bold mb-4 text-white">CAKRA AGISNA</h3>
+        <h3 class="text-2xl text-white opacity-60">WEB DEVELOPER</h3>
+    </div>
+</div>
