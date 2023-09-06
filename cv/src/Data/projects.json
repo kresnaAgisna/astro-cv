@@ -1,0 +1,17 @@
+[
+    {
+        "title": "HacktivWars",
+        "description": "Interactive live video call and coding app",
+        "techStack": "Node.js, PostgreSQL, Sequelize, Socket.io, JEST, React.js, Bootstrap, PEER.js"
+    },
+    {
+        "title": "Sushi-time",
+        "description": "A Genki-sushi clone application",
+        "techStack": "Node.js, PostgreSQL, Sequelize, Redis, MongoDB, React.js, React-Native, Bootstrap, GraphQL"
+    },
+    {
+        "title": "Prodate",
+        "description": "A web-based dating application",
+        "techStack": "Node.js, PostgreSQL, Sequelize, Socket.io, Vue.js, Bootstrap"
+    }
+]

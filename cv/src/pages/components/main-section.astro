@@ -1,0 +1,19 @@
+---
+import Education from "./contents/Education";
+import Project from "./contents/Project"
+import Summary from "./contents/Summary"
+import Contact from "./contents/Contact"
+import Certification from "./contents/Certification"
+---
+
+<div class="flex space-x-[2cm] w-full h-[20cm] pt-[0.5cm] px-[2cm]">
+    <div class="flex flex-col flex-1 h-full space-y-10 pt-[2cm]">
+        <Education/>
+        <Project/>
+    </div>
+    <div class="flex flex-col flex-1 h-full w-[8cm] space-y-10 pt-[0.5cm]">
+        <Summary/>
+        <Contact/>
+        <Certification client:load/>
+    </div>
+</div>
